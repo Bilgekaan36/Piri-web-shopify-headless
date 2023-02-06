@@ -24,7 +24,7 @@ const theme = createTheme({
       fontWeight: 900,
       fontSize: "1.6em",
       marginBottom: "1em",
-      lineHeight: "1.33",
+      lineHeight: "1.35",
     },
   },
 });

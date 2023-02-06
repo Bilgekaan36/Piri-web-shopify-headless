@@ -2,6 +2,8 @@ import React from "react";
 import Section from "@/components/Section/Section";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { Box, Grid, styled, Typography, Link } from "@mui/material";
+import webflow from "../../../public/images/webflow-workspace.png";
+import Image from "next/image";
 
 const StyledPerformanceText = styled(Typography)(({ theme }) => ({
   fontWeight: 400,
@@ -110,69 +112,57 @@ const ExpertSection = () => {
                   marginBottom: "32px",
                 }}
               >
-                <Typography variant='h2'>
-                  Page Experience und Web Vitals
-                </Typography>
-              </Box>
-              <Box>
-                <StyledPerformanceText variant='p'>
-                  Wie gut ist die Nutzererfahrung für ihre Besucher? Gute Web
-                  Vitals sind die Grundvoraussetzung bevor sie über guten Inhalt
-                  und Suchmaschinen Optimierung (SEO) nachdenken können.
-                  <Link
-                    href='https://developers.google.com/search/docs/advanced/experience/page-experience'
-                    underline='always'
-                    color='#4b5563'
-                  >
-                    {" Google misst viele Signale "}
-                  </Link>
-                  um die Nutzerfreundlichkeit einer Seite zu ermitteln.
-                </StyledPerformanceText>
+                <Typography variant='h2'>Webflow</Typography>
               </Box>
               <Box
                 sx={{
-                  margin: "32px 0px",
-                  paddingLeft: "12px",
-                  borderLeft: "2px solid #4b5563",
-                  color: "#4b5563",
-                  opacity: 0.5,
+                  position: "relative",
+                  overflow: "hidden",
+                  height: 350,
+                  width: "100%",
+                  boxShadow: "3px 24px 32px #E3E3E3",
+                  marginBottom: "32px",
                 }}
               >
-                <Typography variant='p' sx={{ fontStyle: "italic" }}>
-                  Langsame Webseiten werden schlechter gereiht
-                </Typography>
+                <Image
+                  src={webflow}
+                  alt='Picture from webflow'
+                  provided='true'
+                  automatically='true'
+                  fill
+                />
               </Box>
               <Box sx={{ marginBottom: "32px" }}>
                 <StyledPerformanceText variant='p'>
-                  Vor einigen Jahren war eine durchschnittliche Seitenlade-Zeit
-                  von 3 Sekunden noch OK. Diese Tage sind{" "}
-                  <b style={{ color: "black", fontWeight: 700 }}>vorüber</b>.
-                  Immer mehr Dienste bieten dem Nutzer ein sofortiges
-                  Ladeerlebnis. Der Benutzer erwartet schnell ladende Seiten.
-                  Daher müssen ihre Apps und Websites optimiert sein um
-                  konkurrenzfähig zu bleiben.
-                  <Link
-                    href='https://developers.google.com/search/docs/advanced/experience/page-experience'
-                    underline='always'
-                    color='#4b5563'
-                  >
-                    {" Google misst viele Signale "}
-                  </Link>
-                  um die Nutzerfreundlichkeit einer Seite zu ermitteln.
-                </StyledPerformanceText>
-              </Box>
-              <Box sx={{ marginBottom: "32px" }}>
-                <StyledPerformanceText variant='p'>
-                  Wir helfen ihnen bei der Auswahl der richtigen Technologien
-                  und der geeigneten
+                  Webflow ist ein professioneller, komplexer und
+                  leistungsstarker Website-Builder, mithilfe man sehr schnell
+                  und agil Projekte umsetzen kann. Hier setzen wir je nach dem
+                  Budget des Kunden Webflow als CMS für Shops oder Websites ein.
+                  Durch das hauseigene
                   <Link
                     href='https://nextjs.org/docs/basic-features/data-fetching/overview'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" data fetching strategy "}
-                  </Link>{" "}
-                  für ihr Projekt.
+                    {" Webflow-Hosting "}
+                  </Link>
+                  kann der Kunde nach einer Einführung selbstständig Inhalte
+                  hinzufügen und verwalten.
+                </StyledPerformanceText>
+              </Box>
+              <Box sx={{ marginBottom: "32px" }}>
+                <StyledPerformanceText variant='p'>
+                  Durch
+                  <Link
+                    href='https://nextjs.org/docs/basic-features/data-fetching/overview'
+                    underline='always'
+                    color='#4b5563'
+                  >
+                    {" Amazon Web Services & Fastly "}
+                  </Link>
+                  nutzten wir den Hosting-Service nur nach Bedarf und sparen
+                  somit Kosten und Ressourcen. Es besteht auch die Möglichkeit
+                  nach Kundenwunsch extern zu hosten.
                 </StyledPerformanceText>
               </Box>
             </Grid>
