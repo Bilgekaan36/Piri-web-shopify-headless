@@ -23,7 +23,7 @@ const CompetenceSection = () => {
               <CustomCard
                 headerLink='https://www.shopify.com/enterprise/headless-commerce'
                 header='Shopify Headless'
-                content='Wir sind davon überzeugt, dass die Zukunft des E-Commerce Headless ist. Ladezeiten und Flexibilität sind die Gründe dafür.'
+                content='Ich bin davon überzeugt, dass die Zukunft des E-Commerce Headless ist. Ladezeiten und Flexibilität sind die besten Gründe dafür.'
                 firstLink='https://hydrogen.shopify.dev/'
                 firstLinkItem='Shopify Hydrogen'
                 secondLink='https://shopify.dev/api/storefront'
@@ -36,11 +36,11 @@ const CompetenceSection = () => {
               <CustomCard
                 headerLink='https://nextjs.org/'
                 header='Next.js Apps'
-                content='Vercel, die Erfinder von Next.js, stellen uns alle Werkzeuge und die Infrastruktur zur Verfügung um performante Apps zu erstellen.'
+                content='Vercel, die Erfinder von Next.js, stellen alle Werkzeuge und die Infrastruktur zur Verfügung um performante Apps zu erstellen.'
                 firstLink='https://vercel.com/'
                 firstLinkItem='Vercel'
                 secondLink='https://mui.com/'
-                secondLinkItem='React Mui'
+                secondLinkItem='MUI/Material'
                 thirdLink='https://supabase.com/'
                 thirdLinkItem='SupaBase'
               />
@@ -49,7 +49,7 @@ const CompetenceSection = () => {
               <CustomCard
                 headerLink='https://geekflare.com/de/react-native-for-mobile-app/'
                 header='App Entwicklung'
-                content='Mit einer nativen App konvertierst Du Besucher zu wiederkehrenden Kunden. Wir entwickeln Dir mit React Native eine Cross Plattform App für iOS & Android.'
+                content='Mit einer nativen App konvertierev Sie Besucher zu wiederkehrenden Kunden. Ich entwickel Ihnen mit React Native eine Cross Plattform App für iOS & Android.'
                 firstLink='https://reactnative.dev/'
                 firstLinkItem='React Native'
                 secondLink='https://reactnativepaper.com/'
@@ -60,15 +60,15 @@ const CompetenceSection = () => {
             </Grid>
             <Grid item xs={12} sm={3} md={3}>
               <CustomCard
-                headerLink='https://www.shopify.com/enterprise/headless-commerce'
+                headerLink='https://webflow.com/?r=0'
                 header='Webflow Webseite'
-                content='Mach dir keine Sorge um Design oder Inhalt. Ich setze Deinen Web Auftritt professionell um. Strahle mit einer neuen & frischen Website für dein Unternehmen.'
-                firstLink='https://hydrogen.shopify.dev/'
-                firstLinkItem='Shopify Hydrogen'
-                secondLink='https://shopify.dev/api/storefront'
-                secondLinkItem='Shopify GraphQL'
-                thirdLink='https://nextjs.org/'
-                thirdLinkItem='Next.js'
+                content=' Ich setze Ihren Web Auftritt professionell um, Sorgen Sie sich nicht um Design und Inhalt. Strahlen Sie mit einer neuen & frischen Website für Ihr Unternehmen.'
+                firstLink='https://webflow.com/hosting'
+                firstLinkItem='Webflow Hosting'
+                secondLink='https://webflow.com/cms'
+                secondLinkItem='Webflow CMS'
+                thirdLink='https://webflow.com/ecommerce'
+                thirdLinkItem='Webflow Ecommerce'
               />
             </Grid>
           </Grid>

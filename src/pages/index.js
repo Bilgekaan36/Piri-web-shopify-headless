@@ -7,6 +7,8 @@ import HeroSection from "@/pages-sections/hero-section/HeroSection";
 import CompetenceSection from "@/pages-sections/competence-section/CompetenceSection";
 import PerformanceSection from "@/pages-sections/performance-section/PerformanceSection";
 import ExpertSection from "@/pages-sections/expert-section/ExpertSection";
+import ToolSection from "@/pages-sections/tool-section/ToolSection";
+import CtaSection from "@/pages-sections/cta-section/CtaSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +26,8 @@ export default function Home() {
       <CompetenceSection />
       <PerformanceSection />
       <ExpertSection />
+      <ToolSection />
+      <CtaSection />
     </>
   );
 }

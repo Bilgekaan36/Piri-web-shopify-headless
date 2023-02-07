@@ -33,14 +33,14 @@ const ExpertSection = () => {
                   Themes und Apps für Kunden entwickelt. Für internationale
                   Projekte nutze ich Übersetzungstools, mit der sie ihren Online
                   Shop in mehrere Sprachen übersetzen können. Diese verwendet
-                  die
+                  die{" "}
                   <Link
                     href='https://shopify.dev/api/examples/i18n-app-translations'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" GraphQL translation API von Shopify"}
-                  </Link>
+                    {"GraphQL translation API von Shopify"}
+                  </Link>{" "}
                   , die garantiert, dass alle gespeicherten Übersetzungen von
                   der skalierbaren Infrastruktur von Shopify geladen werden.
                 </StyledPerformanceText>
@@ -50,7 +50,7 @@ const ExpertSection = () => {
                   Traditionelle Shopify Storefronts, die Liquid und Online Store
                   2.0 verwenden, sind eine sehr gute Wahl für ihren Online Shop.
                   Aber{" "}
-                  <b style={{ color: "black", fontWeight: 700 }}>
+                  <b style={{ color: "#4B5563", fontWeight: 700 }}>
                     ich bin davon überzeugt, dass die Zukunft Headless
                   </b>{" "}
                   ist und schnelle Seitenlade-Zeiten absolut notwendig sind.
@@ -58,14 +58,14 @@ const ExpertSection = () => {
               </Box>
               <Box sx={{ marginBottom: "32px" }}>
                 <StyledPerformanceText variant='p'>
-                  Eine E-Commerce Schnitstelle gepaart mit einer
+                  Eine E-Commerce Schnitstelle gepaart mit einer{" "}
                   <Link
                     href='https://geekflare.com/de/single-page-applications/'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Single-Page-Applikation "}
-                  </Link>
+                    {"Single-Page-Applikation"}
+                  </Link>{" "}
                   sind von der Ladezeit überwältigend. Hydrogen, Next.js und
                   React Server Components (RSC) sind die Weiterentwicklung
                   dieser Idee. Das wird die Art und Weise wie wir das Web
@@ -76,32 +76,31 @@ const ExpertSection = () => {
                 <StyledPerformanceText variant='p'>
                   Eine exzellente Suche ist für große Produktkataloge
                   entscheidend. Für unsere Projekte haben ich bereits
-                  Integrationen mit
+                  Integrationen mit{" "}
                   <Link
                     href='https://www.algolia.com/de/'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Algolia Search "}
-                  </Link>
-                  und Shopify unter Verwendung von
+                    {"Algolia Search"}
+                  </Link>{" "}
+                  und Shopify unter Verwendung von{" "}
                   <Link
                     href='https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Algolia InstantSearch "}
-                  </Link>
+                    {"Algolia InstantSearch"}
+                  </Link>{" "}
                   entwickelt.
                 </StyledPerformanceText>
               </Box>
               <Box sx={{ marginBottom: "32px" }}>
                 <StyledPerformanceText variant='p'>
-                  Möchten Sie mit mir arbeiten, dann
+                  Möchten Sie mit mir arbeiten, dann{" "}
                   <Link href='#' underline='always' color='#4b5563'>
-                    {" kontaktieren Sie mich"}
-                  </Link>
-                  .
+                    {"kontaktieren Sie mich."}
+                  </Link>{" "}
                 </StyledPerformanceText>
               </Box>
             </Grid>
@@ -136,30 +135,37 @@ const ExpertSection = () => {
                 <StyledPerformanceText variant='p'>
                   Webflow ist ein professioneller, komplexer und
                   leistungsstarker Website-Builder, mithilfe man sehr schnell
-                  und agil Projekte umsetzen kann. Hier setzen wir je nach dem
-                  Budget des Kunden Webflow als CMS für Shops oder Websites ein.
-                  Durch das hauseigene
+                  und agil Projekte umsetzen kann. Hier setze ich je nach dem
+                  Budget des Kunden Webflow als{" "}
                   <Link
-                    href='https://nextjs.org/docs/basic-features/data-fetching/overview'
+                    href='https://webflow.com/cms'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Webflow-Hosting "}
-                  </Link>
+                    {"CMS"}
+                  </Link>{" "}
+                  für Shops oder Websites ein. Durch das hauseigene{" "}
+                  <Link
+                    href='https://webflow.com/hosting#scale'
+                    underline='always'
+                    color='#4b5563'
+                  >
+                    {"Webflow-Hosting"}
+                  </Link>{" "}
                   kann der Kunde nach einer Einführung selbstständig Inhalte
                   hinzufügen und verwalten.
                 </StyledPerformanceText>
               </Box>
               <Box sx={{ marginBottom: "32px" }}>
                 <StyledPerformanceText variant='p'>
-                  Durch
+                  Durch{" "}
                   <Link
-                    href='https://nextjs.org/docs/basic-features/data-fetching/overview'
+                    href='https://www.fastly.com/de/partner/aws/'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Amazon Web Services & Fastly "}
-                  </Link>
+                    {"Amazon Web Services & Fastly"}
+                  </Link>{" "}
                   nutzten wir den Hosting-Service nur nach Bedarf und sparen
                   somit Kosten und Ressourcen. Es besteht auch die Möglichkeit
                   nach Kundenwunsch extern zu hosten.

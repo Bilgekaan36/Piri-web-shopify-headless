@@ -82,14 +82,14 @@ const PerformanceSection = () => {
                 <StyledPerformanceText variant='p'>
                   Wie gut ist die Nutzererfahrung für ihre Besucher? Gute Web
                   Vitals sind die Grundvoraussetzung bevor sie über guten Inhalt
-                  und Suchmaschinen Optimierung (SEO) nachdenken können.
+                  und Suchmaschinen Optimierung (SEO) nachdenken können.{" "}
                   <Link
                     href='https://developers.google.com/search/docs/advanced/experience/page-experience'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Google misst viele Signale "}
-                  </Link>
+                    {"Google misst viele Signale"}
+                  </Link>{" "}
                   um die Nutzerfreundlichkeit einer Seite zu ermitteln.
                 </StyledPerformanceText>
               </Box>
@@ -110,31 +110,31 @@ const PerformanceSection = () => {
                 <StyledPerformanceText variant='p'>
                   Vor einigen Jahren war eine durchschnittliche Seitenlade-Zeit
                   von 3 Sekunden noch OK. Diese Tage sind{" "}
-                  <b style={{ color: "black", fontWeight: 700 }}>vorüber</b>.
+                  <b style={{ color: "#4B5563", fontWeight: 700 }}>vorüber</b>.
                   Immer mehr Dienste bieten dem Nutzer ein sofortiges
                   Ladeerlebnis. Der Benutzer erwartet schnell ladende Seiten.
                   Daher müssen ihre Apps und Websites optimiert sein um
-                  konkurrenzfähig zu bleiben.
+                  konkurrenzfähig zu bleiben.{" "}
                   <Link
                     href='https://developers.google.com/search/docs/advanced/experience/page-experience'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" Google misst viele Signale "}
-                  </Link>
+                    {"Google misst viele Signale"}
+                  </Link>{" "}
                   um die Nutzerfreundlichkeit einer Seite zu ermitteln.
                 </StyledPerformanceText>
               </Box>
               <Box sx={{ marginBottom: "32px" }}>
                 <StyledPerformanceText variant='p'>
-                  Wir helfen ihnen bei der Auswahl der richtigen Technologien
-                  und der geeigneten
+                  Ich helfe ihnen bei der Auswahl der richtigen Technologien und
+                  der geeigneten{" "}
                   <Link
                     href='https://nextjs.org/docs/basic-features/data-fetching/overview'
                     underline='always'
                     color='#4b5563'
                   >
-                    {" data fetching strategy "}
+                    {"data fetching strategy"}
                   </Link>{" "}
                   für ihr Projekt.
                 </StyledPerformanceText>
