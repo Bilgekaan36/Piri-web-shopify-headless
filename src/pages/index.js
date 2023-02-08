@@ -9,6 +9,7 @@ import PerformanceSection from "@/pages-sections/performance-section/Performance
 import ExpertSection from "@/pages-sections/expert-section/ExpertSection";
 import ToolSection from "@/pages-sections/tool-section/ToolSection";
 import CtaSection from "@/pages-sections/cta-section/CtaSection";
+import FooterSection from "@/pages-sections/footer-section/FooterSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function Home() {
       <ExpertSection />
       <ToolSection />
       <CtaSection />
+      <FooterSection />
     </>
   );
 }
