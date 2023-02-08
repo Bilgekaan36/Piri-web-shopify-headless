@@ -38,7 +38,10 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position='fixed' sx={{ backgroundColor: "#000000" }}>
+    <AppBar
+      position='static'
+      sx={{ backgroundColor: "#000000", padding: "32px" }}
+    >
       <Container maxWidth='md'>
         <Toolbar disableGutters>
           <Typography
@@ -55,10 +58,10 @@ const ResponsiveAppBar = () => {
               textDecoration: "none",
             }}
           >
-            <strong> PIRI</strong> WEB
+            <strong> PIRI</strong>
+            <p style={{ color: "#9DA3AF" }}> WEB</p>
           </Typography>
-
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size='large'
               aria-label='account of current user'
@@ -93,7 +96,7 @@ const ResponsiveAppBar = () => {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
           <Typography
             variant='h5'
             noWrap
@@ -115,14 +118,14 @@ const ResponsiveAppBar = () => {
             sx={{
               flexGrow: 1,
               display: {
-                xs: "none",
+                xs: "flex",
                 md: "flex",
                 justifyContent: "flex-end",
                 alignItems: "center",
               },
             }}
           >
-            {pages.map((page) => (
+            {/* {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -136,8 +139,8 @@ const ResponsiveAppBar = () => {
               >
                 {page}
               </Button>
-            ))}
-            <CustomButton bgColor='#2C3645'>Kontakt</CustomButton>
+            ))} */}
+            <CustomButton bgColor='#2C3645'>EN</CustomButton>
           </Box>
         </Toolbar>
       </Container>
