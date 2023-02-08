@@ -1,26 +1,43 @@
 import { useState } from "react";
+
 import {
-  Menu,
-  Avatar,
-  Tooltip,
-  MenuItem,
-  Container,
-  Toolbar,
-  Button,
   Box,
   AppBar,
+  Toolbar,
   Typography,
-  IconButton,
+  Button,
+  styled,
+  Container,
+  FormControl,
+  NativeSelect,
 } from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
 import CustomButton from "../CustomButton/CustomButton";
+import { useRouter } from "next/router";
 
 const pages = ["Referenzen", "Über uns", "Blog", "FAQ", "Kontakt"];
 
 const ResponsiveAppBar = () => {
+  const router = useRouter();
+  const { locale, locales, defaultLocale, pathname } = router;
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
+
+  const changeLanguage = (event) => {
+    let locale = event.target.textContent;
+    console.log("locale: ", event.target.textContent);
+    if (locale === "de") {
+      locale = "en";
+      router.push(pathname, pathname, { locale });
+    } else if (locale === "en") {
+      locale = "tr";
+      router.push(pathname, pathname, { locale });
+    } else if (locale === "tr") {
+      locale = "de";
+      router.push(pathname, pathname, { locale });
+    }
+  };
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -140,7 +157,22 @@ const ResponsiveAppBar = () => {
                 {page}
               </Button>
             ))} */}
-            <CustomButton bgColor='#2C3645'>EN</CustomButton>
+            <Button
+              sx={{
+                color: "white",
+                lineHeight: "1.75rem",
+                fontWeight: 400,
+                padding: "0.5rem 1rem",
+                borderRadius: "0.5rem",
+                backgroundColor: "#2C3645",
+                ":hover": {
+                  backgroundColor: "#0C94E7",
+                },
+              }}
+              onClick={changeLanguage}
+            >
+              {locale}
+            </Button>
           </Box>
         </Toolbar>
       </Container>
@@ -148,3 +180,9 @@ const ResponsiveAppBar = () => {
   );
 };
 export default ResponsiveAppBar;
+
+// {locales.map((locale) => (
+//   <option value={locale} key={locale}>
+//     {locale.toUpperCase()}
+//   </option>
+// ))}

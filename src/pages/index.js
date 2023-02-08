@@ -10,10 +10,29 @@ import ExpertSection from "@/pages-sections/expert-section/ExpertSection";
 import ToolSection from "@/pages-sections/tool-section/ToolSection";
 import CtaSection from "@/pages-sections/cta-section/CtaSection";
 import FooterSection from "@/pages-sections/footer-section/FooterSection";
+import { useRouter } from "next/router";
+
+import en from "../locales/en";
+import de from "../locales/de";
+import tr from "../locales/tr";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const router = useRouter();
+  const { locale, locales, defaultLocale } = router;
+  let t;
+  switch (locale) {
+    case "en":
+      t = en;
+      break;
+    case "de":
+      t = de;
+      break;
+    case "tr":
+      t = tr;
+      break;
+  }
   return (
     <>
       <Head>
