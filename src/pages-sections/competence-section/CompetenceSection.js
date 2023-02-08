@@ -13,12 +13,8 @@ const CompetenceSection = () => {
   return (
     <Section bgColor='white'>
       <Wrapper>
-        <StyledCompetenceBox sx={{ marginTop: { xs: "-120px", md: "-250px" } }}>
-          <Grid
-            container
-            spacing={{ xs: 1, md: 1 }}
-            columns={{ xs: 4, sm: 8, md: 12 }}
-          >
+        <StyledCompetenceBox sx={{ marginTop: { xs: "-100px", md: "-200px" } }}>
+          <Grid container spacing={{ xs: 2, md: 1 }}>
             <Grid item xs={12} sm={3} md={3}>
               <CustomCard
                 headerLink='https://www.shopify.com/enterprise/headless-commerce'

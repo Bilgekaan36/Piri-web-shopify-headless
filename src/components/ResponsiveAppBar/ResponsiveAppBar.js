@@ -6,14 +6,9 @@ import {
   Toolbar,
   Typography,
   Button,
-  styled,
   Container,
-  FormControl,
-  NativeSelect,
 } from "@mui/material";
 
-import MenuIcon from "@mui/icons-material/Menu";
-import CustomButton from "../CustomButton/CustomButton";
 import { useRouter } from "next/router";
 
 const pages = ["Referenzen", "Über uns", "Blog", "FAQ", "Kontakt"];
@@ -180,9 +175,3 @@ const ResponsiveAppBar = () => {
   );
 };
 export default ResponsiveAppBar;
-
-// {locales.map((locale) => (
-//   <option value={locale} key={locale}>
-//     {locale.toUpperCase()}
-//   </option>
-// ))}

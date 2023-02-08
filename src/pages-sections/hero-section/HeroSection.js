@@ -3,6 +3,7 @@ import Section from "@/components/Section/Section";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
+import * as Scroll from "react-scroll";
 
 const HeroHeader = styled(Typography)(({ theme }) => ({
   color: "white",
@@ -33,6 +34,8 @@ const HeroSubHeader = styled(Typography)(({ theme }) => ({
 // }));
 
 const HeroSection = () => {
+  let ScrollLink = Scroll.Link;
+
   return (
     <Section bgColor='black'>
       <Wrapper>
@@ -55,7 +58,15 @@ const HeroSection = () => {
             Entwicklung von performanten Web- und E-Commerce Apps.
           </HeroSubHeader>
           <CustomButton bgColor='#40A8DD'>
-            Unverbindliches Erstgespräch
+            <ScrollLink
+              to='footer'
+              spy={false}
+              smooth={true}
+              offset={0}
+              duration={1500}
+            >
+              Unverbindliches Erstgespräch
+            </ScrollLink>
           </CustomButton>
         </Box>
       </Wrapper>

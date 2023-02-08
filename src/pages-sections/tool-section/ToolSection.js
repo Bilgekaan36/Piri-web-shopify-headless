@@ -15,7 +15,7 @@ const ToolSection = () => {
     <Section bgColor='white'>
       <Wrapper>
         <StyledCompetenceBox>
-          <Grid container spacing={{ xs: 2, md: 4 }}>
+          <Grid container spacing={{ xs: 4, md: 4 }}>
             <Grid item xs={12} sm={4} md={4}>
               <ToolCard header='React/Next.js'>
                 <Typography

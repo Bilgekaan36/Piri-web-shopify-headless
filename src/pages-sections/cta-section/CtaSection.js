@@ -39,7 +39,7 @@ const CtaSection = () => {
                   Buchen Sie direkt einen kostenlosen Termin
                 </StyledPerformanceText>
               </Box>
-              <Box sx={{ marginBottom: "32px" }}>
+              <Box sx={{ marginBottom: "32px" }} id='footer'>
                 <Link
                   href='mailto:bilgekaan.yilmaz36@gmail.com'
                   underline='always'
