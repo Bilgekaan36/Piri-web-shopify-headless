@@ -130,7 +130,7 @@ const ToolSection = () => {
                   }}
                 >
                   Aber es inkludiert zusätzlich noch Authentifizierung, Instant
-                  API's, Realtime Subscriptions und Speicher.
+                  APIs, Realtime Subscriptions und Speicher.
                 </Typography>
               </ToolCard>
             </Grid>
